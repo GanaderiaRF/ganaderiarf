@@ -1,0 +1,216 @@
+<<!DOCTYPE html>
+<html>
+<head>
+<title>Ganaderia RF - Carne de calidad en tu mesa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/entorno.png");
+  min-height: 95%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.w3-azulgf  {
+  background-color:#00BEF6;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" style="letter-spacing:2px;" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="images/logo.png" alt="Ganadería RF - Venta de Carne de Ternera y de Vaca de Alta Calidad" style="width:100%;max-width:100px"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small w3-hide-medium">
+      <a href="#quienes" class="w3-bar-item w3-button">Quienes somos</a>
+      <a href="#vacas" class="w3-bar-item w3-button">Nuestras vacas</a>
+      <a href="#lotes" class="w3-bar-item w3-button">Nuestros productos</a>
+      <a href="#comprar" class="w3-bar-item w3-button">Cómo comprar</a>
+      <a href="#contacto" class="w3-bar-item w3-button">Contacto</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding-16">Cerrar ×</a>
+  <a href="#quienes" onclick="w3_close()" class="w3-bar-item w3-button">Quienes somos</a>
+  <a href="#vacas" onclick="w3_close()" class="w3-bar-item w3-button">Nuestras vacas</a>
+  <a href="#lotes" onclick="w3_close()" class="w3-bar-item w3-button">Nuestros productos</a>
+  <a href="#comprar" onclick="w3_close()" class="w3-bar-item w3-button">Cómo comprar</a>
+  <a href="#contacto" onclick="w3_close()" class="w3-bar-item w3-button">Contacto</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-xxlarge">Carne de calidad en tu mesa</span><span class="w3-xlarge w3-hide-medium w3-hide-small">   ... desde las montañas de León</span>
+      <p><a href="#lotes" class="w3-button w3-padding-large w3-xlarge w3-margin-top w3-hover-opacity-off w3-hide-medium w3-hide-small w3-azulgf w3-right">Reserva tu pedido YA !</a>
+          <a href="#lotes" class="w3-button w3-padding-large w3-large w3-margin-top w3-hover-opacity-off w3-hide-large w3-azulgf w3-right">Reserva tu pedido YA !</a></p>
+  </div>
+</header>
+
+<!-- Quienes somos -->
+<div class="w3-container w3-text-grey" style="padding:128px 16px 0px 16px" id="quienes">
+  <h3 class="w3-center w3-xxxlarge w3-text-theme w3-hide-small w3-azulgf w3-text-black">Quienes somos</h3>
+  <h3 class="w3-center w3-xxlarge w3-text-theme w3-hide-medium w3-hide-large w3-azulgf w3-text-black">Quienes somos</h3>
+    <div class="w3-row w3-padding-64" >
+        <div class="w3-half w3-padding-large">
+        <img src="images/rosalia.png" class="w3-round w3-image " alt="Ganaderia RF" style="width:100%">
+        </div>
+        <div class="w3-half w3-padding-large" >
+        <h5 class="w3-center">Tradición ganadera</h5>
+        <p class="w3-large w3-text-grey w3-hide-medium">Durante décadas, Raúl Fernández, el patriarca, cimentó un modelo de ganadería extensiva donde los animales pastan en libertad en los prados, basado en la observación atenta de la naturaleza y en el cuidado genuino de los animales. Su legado es un conocimiento profundo que ahora Rosalía Fernández, su hija, ha asumido y potenciado con una visión moderna y audaz.</p>
+        <p class="w3-large w3-text-grey w3-hide-medium">A sus 21 años, cuando muchos jóvenes eligen el camino de las grandes ciudades y las oficinas corporativas, Rosalía tomó una decisión que la enraizó aún más a su tierra: volver a la ganadería. Cambiar los cálculos bancarios por el conteo de cabezas de ganado, el asfalto por los pastos de alta montaña, y la vida urbana por el ritmo pausado pero exigente del campo. Esta elección personal es un testimonio de la profunda conexión que siente con los animales y con el legado familiar.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Nuestras vacas -->
+<hr>
+<div class="w3-container w3-text-grey" style="padding:128px 16px 0px 16px" id="vacas">
+  <h3 class="w3-center w3-xxxlarge w3-text-theme w3-hide-small w3-azulgf w3-text-black">Nuestras Vacas</h3>
+  <h3 class="w3-center w3-xxlarge w3-text-theme w3-hide-medium w3-hide-large w3-azulgf w3-text-black">Nuestras vacas</h3>
+  <h4 class="w3-center w3-xlarge">Raza CASINA</h4>
+    <div class="w3-row" style="margin-top:64px">
+        <div class="w3-half w3-padding-large">
+            <p class="w3-large w3-text-grey w3-hide-medium">Se trata de una raza 100% autóctona, unos animales que se adaptan muy bien a cualquier tipo de territorio y condiciones ambientales. Pasta en cualquier zona, gracias a la rusticidad que tienen y al ser autóctonas se adaptan muy bien al medio que las rodea, son <strong>las vacas más montañeras</strong> que puedes encontrar.</p> 
+            <p class="w3-large w3-text-grey w3-hide-medium">Son animales de pata corta, con una estructura fuerte, tienen una cabeza pequeña pero unos cuernos muy grandes. Como madres son muy protectoras y su carne es muy sabrosa y jugosa. Esta vaca tiene partos muy fáciles por eso habitualmente lo que se hace es cruzarla con razas más cárnicas.  </p>
+            <p class="w3-large w3-text-grey w3-hide-medium">Esta raza está considerada como <strong>una de las mejores del mundo</strong>, ganó la medalla de oro en el 2017, en el World Steak Challenge, que es un certamen londinense, ya que su carne es de excelente calidad.</p>
+          </div>
+        <div class="w3-half w3-padding-large">
+            <img src="images/casina.png" class="w3-round w3-image w3-opacity-min" alt="Vaca CASINA" style="width:100%">
+        </div>   
+    </div>
+</div>
+
+<!-- Nuestros Productos -->
+<hr>
+<div class="w3-container w3-text-grey" style="padding:128px 16px 0px 16px" id="lotes">
+  <h3 class="w3-center w3-xxxlarge w3-text-theme w3-hide-small w3-azulgf w3-text-black">Nuestros productos</h3>
+  <h3 class="w3-center w3-xxlarge w3-text-theme w3-hide-medium w3-hide-large w3-azulgf w3-text-black">Nuestros lotes</h3>
+    <h4>IVA incluido y gastos de envío <strong>gratis</strong> para pedidos superiores a 90€</h4>
+    <p>Indícanos tus preferencias y preparamos un lote a tu medida: entrecot, chuletón, churrasco, filetes, carne para guisar... Si quieres conseguir piezas tan deseadas como son el solomillo, rabo, hígado, lengua … háznoslo saber cuanto antes, y a medida que tengamos disponibilidad de esos productos os lo haremos saber.</p>
+  <div class="w3-grid" style="gap:4px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+      <div class="w3-padding">
+      <img src="images/lotezamarra.png" style="width:100%">
+      </div>
+      <div class="w3-padding">
+      <img src="images/lotecamparra.png" style="width:100%">
+      </div>
+      <div class="w3-padding">
+      <img src="images/lotexana.png" style="width:100%">
+      </div>
+      <div class="w3-padding">
+      <img src="images/lotemontesa.png" style="width:100%">
+      </div>
+     <div class="w3-padding">
+      <img src="images/lotemarieya.png" style="width:100%"> 
+     </div>
+ </div>
+</div>
+
+<!-- Como comprar -->
+<hr>
+<div class="w3-container w3-text-grey" style="padding:128px 16px 0px 16px" id="comprar">
+  <h3 class="w3-center w3-xxxlarge w3-text-theme w3-hide-small w3-azulgf w3-text-black">Cómo comprar</h3>
+  <h3 class="w3-center w3-xxlarge w3-text-theme w3-hide-medium w3-hide-large w3-azulgf w3-text-black">Cómo comprar</h3>
+   <div Class="w3-third w3-padding-large">
+          <img src="images/ternero.png" class="w3-round w3-image w3-opacity-min" alt="Comprar" style="width:100%">
+    </div>
+
+
+    <div class="w3-twothird w3-padding-large">
+        <p class="w3-large w3-text-grey w3-hide-medium">Nuestros terneros están todo el tiempo con sus madres hasta los 8 meses de edad que son destetados. En ese momento comienza el proceso de cebo, que lo hacemos con la hierba que hemos recogido durante el verano y piensos con cereales de gran calidad. Cuando creemos que ya tienen el crecimiento optimo es cuando decidimos la fecha de venta.</p> 
+        <p class="w3-large w3-text-grey w3-hide-medium">Por otra parte tenemos un número limitado de cabezas. Por estas razones, <br><span class="w3-xlarge">no podemos concretar las fechas exactas en las que sacaremos piezas a la venta</span></p>
+        <p class="w3-tag w3-large w3-azulgf w3-padding-large ">Haz tu encargo !!!<br>Escríbeme <img src=images/WhatsApp_icon.png width=25px> 686 635 395<br>
+ganaderiarf@gmail.com</p>
+
+    </div>        
+        <div class="w3-row w3-padding-large">
+            <ul class="w3-ul">
+                <li><span class="w3-badge w3-azulgf w3-xlarge">1</span> <span class="w3-large"> &nbsp; Escríbenos indicando si quieres algún lote concreto o si tienes alguna petición especial</span></li>
+                <li><span class="w3-badge w3-azulgf w3-xlarge">2</span> <span class="w3-large">&nbsp; Nosotros te incluimos en la relación de próximos pedidos</span></li>
+                <li><span class="w3-badge w3-azulgf w3-xlarge">3</span> <span class="w3-large">&nbsp; En cuanto tenemos establecidas las fechas de matanza, te escribimos al correo de contacto y te indicamos la fecha prevista para el envío y confirmamos tu pedido</span></li>
+                <li><span class="w3-badge w3-azulgf w3-xlarge">4</span> <span class="w3-large">&nbsp; Nos haces un Bizum o transferencia siguiendo las indicaciones que te habremos dado por correo</span></li>
+                <li><span class="w3-badge w3-azulgf w3-xlarge">5</span> <span class="w3-large">&nbsp; Te confirmamos la fecha de entrega. Tu carne llegará en perfectas condiciones envasada en bolsas al vacío con las reglamentarias etiquetas identificativas que aseguran la protección sanitaria</span></li>
+            </ul>
+        </div>
+</div>
+    
+<!-- Contacto Section -->
+    <hr>
+<div class="w3-container w3-white w3-text-grey" style="padding:128px 16px" id="contacto">
+  <h3 class="w3-center w3-xxxlarge w3-text-theme w3-hide-small w3-azulgf w3-text-black">CONTACTO</h3>
+<h3 class="w3-center w3-xxlarge w3-text-theme w3-hide-medium w3-hide-large w3-azulgf w3-text-black">CONTACTO</h3>
+  <p class="w3-center w3-large">Hablamos cuando quieras. Mándame un mensaje</p>
+  <div class="w3-center">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Prioro - León</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Teléfono: 686 635 395</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ganaderiarf@gmail.com</p>
+      <p style="margin-left:-5px;"><a href="https://www.instagram.com/ganaderia_rf/" class="w3-bar-item w3-button" target="_blank"><i class="fa-brands fa-instagram w3-hover-opacity w3-xxlarge"></i>&nbsp;&nbsp;&nbsp;&nbsp; @ganaderia_rf</a></p>
+  </div>
+    
+<!-- Footer -->
+<footer class="w3-center  w3-bar w3-black">
+  
+  <div>
+<i class="fa fa-map-marker fa-fw w3-small"></i> Prioro - León <i class="fa fa-phone fa-fw w3-small"></i> Teléfono: 686 635 395 <i class="fa fa-envelope fa-fw w3-small"> </i> Email: ganaderiarf@gmail.com <a href="https://www.instagram.com/ganaderia_rf/" class="w3-button" target="_blank"><i class="fa-brands fa-instagram w3-hover-opacity w3-small"></i> @ganaderia_rf</a> <a href="aviso.html" class="w3-button">Aviso Legal</a>
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
